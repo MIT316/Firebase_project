@@ -1,0 +1,74 @@
+/* General page styling */
+body {
+    background-color: #f4f7fc;
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  /* Container styling */
+  .container {
+    background-color: white;
+    width: 400px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  /* Heading styling */
+  h2 {
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  /* Display fields for sensor data */
+  #humidity, #temperature, #smokeLevel {
+    background-color: #e9f5fc;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    font-size: 18px;
+    color: #006699;
+    font-weight: bold;
+    border: 1px solid #cce7f3;
+  }
+  
+  /* Button styling */
+  button {
+    width: 150px;
+    padding: 10px;
+    margin-top: 20px;
+    font-size: 16px;
+    background-color: #006699;
+    border: none;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  button:hover {
+    background-color: #004d66;
+  }
+  
+  /* Make the page responsive */
+  @media screen and (max-width: 500px) {
+    .container {
+      width: 90%;
+    }
+  
+    h2 {
+      font-size: 20px;
+    }
+  
+    button {
+      width: 100%;
+    }
+  }
+  
