@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sensor Data</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h2>Sensor Data from Firebase</h2>
+      <hr />
+
+      <!-- Displaying the sensor data -->
+      <div id="humidity"></div>
+      <div id="temperature"></div>
+      <div id="smokeLevel"></div>
+
+      <button id="readSensorData">Read Sensor Data</button>
+    </div>
+
+    <script src="https://www.gstatic.com/firebasejs/8.4.2/firebase.js"></script>
+    <script src="./fireConfig.js"></script>
+    <script src="./myscript.js"></script>
+  </body>
+</html>
